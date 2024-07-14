@@ -1,0 +1,226 @@
+
+*{
+    margin: 0%;
+}
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    color: #252B42;
+    font-style: bold;
+}
+main{
+    padding: 0%;
+    border: 0%;
+    margin: 0%;
+    background-color: #DDF4FF;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
+#main-h5{
+    color: #96BB7C;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    top: -25vh;
+}
+#main-h1{
+    font-size: 58px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: -19vh;
+}
+#main-h4{
+    color: #737373;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    position: absolute;
+}
+.main-btn{
+    display: flex;
+    gap: 2vh;
+    position: absolute;
+    top: 10vh;
+}
+#nav-login:hover{
+    color: #252B42;
+}
+#main-btn1{
+    background-color: #96BB7C;
+    border-radius: 5px;
+    color: white;
+    border-style: none;
+    width: 195px;
+    height: 52px;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+#main-btn2{
+    color: #96BB7C;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: #96BB7C;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid #96BB7C ;
+    width: 165px;
+    height: 52px;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+#main-btn2:hover{
+    transition: ease-in-out 0.2s;
+    background-color: #96BB7C;
+    color: white;
+}
+#nav-btn1{
+    border-style: none;
+    background-color: #96BB7C;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: #FFFFFF;
+    width: 137px;
+    height: 52px;
+    border-radius: 5px;
+}
+#nav-link{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #737373;
+    font-weight: bold;
+}
+#nav-link:hover{
+  color: #96BB7C;
+}
+nav{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 1322px;
+    position: absolute;
+    left: 25vh;
+    position: relative;
+    top: 15px;
+    gap: 73vh;
+    z-index: 100;
+}
+.nav-direito{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#nav-login{
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #96BB7C;
+    position: relative;
+    top: 17px;
+}
+.nav-btn{
+    display: flex;
+    gap: 50px;
+}
+.nav-options{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    right: 65vh;
+}
+main{
+    width: 100%;
+    height: 777px;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    align-items: center;
+}
+#main-menina{
+    width: 532.15px;
+    height: 622.04px;
+    z-index: 1;
+}
+#elipse{
+    width: 495.68px;
+    height: 495.68px;
+    border-radius: 100%;
+    background-color: #B8F0D7;
+    position: absolute;
+    top: 12vh;
+    left: 2vh;
+}
+.main-direito{
+    position: absolute;
+    width: 704px;
+    left: 130vh;
+    top: 17vh;
+    display: flex;
+}
+.main-esquerdo{
+    background-color: red;
+    width: 573px;
+    position: absolute;
+    left: 20vh;
+}
+#main-score{
+    width: 218.82px;
+    height: 149.65px;
+    z-index: 2;
+    position: absolute;
+    top: 50vh;
+    right: 55vh;
+}
+#main-global{
+    width: 196.24px;
+    height: 183.53px;
+    position: absolute;
+    z-index: 2;
+    left: 45vh;
+    top: 31vh;
+}
+#main-singles{
+    position: absolute;
+    width: 162.35px;
+    height: 81.88px;
+    z-index: 2;
+    top: 27vh;
+    right: 66vh;
+}
+.stats{
+    display: block;
+    position: absolute;
+    top: 84.5vh;
+    background-color: rgb(255, 255, 255);
+    height: 264px;
+    width: 100%;
+}
+#stats-h1{
+    font-family: "Montserrat", sans-serif;
+    color: #96BB7C;
+    font-size: 58px;
+    font-weight: bold;
+    text-align: center;
+}
+#stats-h5{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    color: #252B42;
+    text-align: center;
+}
+.stats{
+    background-color: rgba(0, 0, 0, 0);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 20vh;
+    padding: 10vh 10vh;
+}
